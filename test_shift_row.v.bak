@@ -1,0 +1,9 @@
+module test_shift_row(
+input [127:0]in,
+output [127:0]out,
+output [127:0] out2
+);
+shift_row asd (.in(in),.out(out));
+inv_shift_row asdf (.in(out),.out(out2));
+
+endmodule

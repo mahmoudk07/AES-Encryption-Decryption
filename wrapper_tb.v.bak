@@ -1,0 +1,74 @@
+module wrapper_tb ();
+reg clk;
+reg [1:0] mod;
+reg [7:0] in;
+reg [7:0] key;
+wire [127:0] out;
+wrapper uut
+(
+.mod(mod),
+.key(key),
+.clk(clk),
+.in(in),
+.out(out)
+);
+
+always 
+begin
+#5 clk=~clk;
+end
+initial begin
+clk=0;
+mod=2'b0;
+in=8'b00000000;
+key=8'h00;
+#10 
+in=8'b00000001;
+key=8'h01;
+#10 
+in=8'b00000011;
+key=8'h02;
+
+#10 
+in=8'b00000101;
+key=8'h03;
+#10 
+in=8'b00010001;
+key=8'h04;
+#10 
+in=8'b00010001;
+key=8'h05;
+#10 
+in=8'b00100101;
+key=8'h06;
+#10 
+in=8'b00100001;
+key=8'h07;
+#10 
+in=8'b01000001;
+key=8'h08;
+#10 
+in=8'b11000001;
+key=8'h09;
+#10 
+in=8'b00000000;
+key=8'h0a;
+#10 
+in=8'b01100001;
+key=8'h0b;
+#10 
+in=8'b00000001;
+key=8'h0c;
+#10 
+in=8'b00111001;
+key=8'h0d;
+#10 
+in=8'b11100101;
+key=8'h0e;
+#10 
+in=8'b11111111;
+key=8'h0f;
+
+#10 $finish; 
+
+end
