@@ -1,0 +1,250 @@
+# Reading pref.tcl
+# do AES_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying F:/Quartus-lite-20.1.1.720-windows/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/lenovo/Desktop/Logic2_project {C:/Users/lenovo/Desktop/Logic2_project/s_box.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:53:54 on May 25,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/lenovo/Desktop/Logic2_project" C:/Users/lenovo/Desktop/Logic2_project/s_box.v 
+# -- Compiling module sbox
+# 
+# Top level modules:
+# 	sbox
+# End time: 16:53:54 on May 25,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/lenovo/Desktop/Logic2_project {C:/Users/lenovo/Desktop/Logic2_project/subByte.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:53:55 on May 25,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/lenovo/Desktop/Logic2_project" C:/Users/lenovo/Desktop/Logic2_project/subByte.v 
+# -- Compiling module subByte
+# 
+# Top level modules:
+# 	subByte
+# End time: 16:53:55 on May 25,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/lenovo/Desktop/Logic2_project {C:/Users/lenovo/Desktop/Logic2_project/add_round_key.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:53:55 on May 25,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/lenovo/Desktop/Logic2_project" C:/Users/lenovo/Desktop/Logic2_project/add_round_key.v 
+# -- Compiling module add_round_key
+# 
+# Top level modules:
+# 	add_round_key
+# End time: 16:53:55 on May 25,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/lenovo/Desktop/Logic2_project {C:/Users/lenovo/Desktop/Logic2_project/shift_rows.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:53:55 on May 25,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/lenovo/Desktop/Logic2_project" C:/Users/lenovo/Desktop/Logic2_project/shift_rows.v 
+# -- Compiling module shift_rows
+# 
+# Top level modules:
+# 	shift_rows
+# End time: 16:53:55 on May 25,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/lenovo/Desktop/Logic2_project {C:/Users/lenovo/Desktop/Logic2_project/mix_columns.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:53:55 on May 25,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/lenovo/Desktop/Logic2_project" C:/Users/lenovo/Desktop/Logic2_project/mix_columns.v 
+# -- Compiling module mix_columns
+# 
+# Top level modules:
+# 	mix_columns
+# End time: 16:53:55 on May 25,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/lenovo/Desktop/Logic2_project {C:/Users/lenovo/Desktop/Logic2_project/key_expansion.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:53:55 on May 25,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/lenovo/Desktop/Logic2_project" C:/Users/lenovo/Desktop/Logic2_project/key_expansion.v 
+# -- Compiling module key_expansion
+# 
+# Top level modules:
+# 	key_expansion
+# End time: 16:53:55 on May 25,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/lenovo/Desktop/Logic2_project {C:/Users/lenovo/Desktop/Logic2_project/inv_sbox.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:53:55 on May 25,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/lenovo/Desktop/Logic2_project" C:/Users/lenovo/Desktop/Logic2_project/inv_sbox.v 
+# -- Compiling module inv_sbox
+# 
+# Top level modules:
+# 	inv_sbox
+# End time: 16:53:56 on May 25,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/lenovo/Desktop/Logic2_project {C:/Users/lenovo/Desktop/Logic2_project/inv_subByte.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:53:56 on May 25,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/lenovo/Desktop/Logic2_project" C:/Users/lenovo/Desktop/Logic2_project/inv_subByte.v 
+# -- Compiling module inv_subByte
+# 
+# Top level modules:
+# 	inv_subByte
+# End time: 16:53:56 on May 25,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/lenovo/Desktop/Logic2_project {C:/Users/lenovo/Desktop/Logic2_project/inv_shift_rows.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:53:56 on May 25,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/lenovo/Desktop/Logic2_project" C:/Users/lenovo/Desktop/Logic2_project/inv_shift_rows.v 
+# -- Compiling module inv_shift_rows
+# 
+# Top level modules:
+# 	inv_shift_rows
+# End time: 16:53:56 on May 25,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/lenovo/Desktop/Logic2_project {C:/Users/lenovo/Desktop/Logic2_project/inv_mix_columns.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:53:56 on May 25,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/lenovo/Desktop/Logic2_project" C:/Users/lenovo/Desktop/Logic2_project/inv_mix_columns.v 
+# -- Compiling module inv_mix_columns
+# 
+# Top level modules:
+# 	inv_mix_columns
+# End time: 16:53:56 on May 25,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/lenovo/Desktop/Logic2_project {C:/Users/lenovo/Desktop/Logic2_project/key_expansion_192.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:53:56 on May 25,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/lenovo/Desktop/Logic2_project" C:/Users/lenovo/Desktop/Logic2_project/key_expansion_192.v 
+# -- Compiling module key_expansion_192
+# 
+# Top level modules:
+# 	key_expansion_192
+# End time: 16:53:56 on May 25,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/lenovo/Desktop/Logic2_project {C:/Users/lenovo/Desktop/Logic2_project/key_expansion_256.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:53:56 on May 25,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/lenovo/Desktop/Logic2_project" C:/Users/lenovo/Desktop/Logic2_project/key_expansion_256.v 
+# -- Compiling module key_expansion_256
+# 
+# Top level modules:
+# 	key_expansion_256
+# End time: 16:53:56 on May 25,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/lenovo/Desktop/Logic2_project {C:/Users/lenovo/Desktop/Logic2_project/encryption_layer128.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:53:56 on May 25,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/lenovo/Desktop/Logic2_project" C:/Users/lenovo/Desktop/Logic2_project/encryption_layer128.v 
+# -- Compiling module encryption_layer128
+# 
+# Top level modules:
+# 	encryption_layer128
+# End time: 16:53:56 on May 25,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/lenovo/Desktop/Logic2_project {C:/Users/lenovo/Desktop/Logic2_project/decryption_layer128.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:53:57 on May 25,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/lenovo/Desktop/Logic2_project" C:/Users/lenovo/Desktop/Logic2_project/decryption_layer128.v 
+# -- Compiling module decryption_layer128
+# 
+# Top level modules:
+# 	decryption_layer128
+# End time: 16:53:57 on May 25,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/lenovo/Desktop/Logic2_project {C:/Users/lenovo/Desktop/Logic2_project/encryption_layer192.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:53:57 on May 25,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/lenovo/Desktop/Logic2_project" C:/Users/lenovo/Desktop/Logic2_project/encryption_layer192.v 
+# -- Compiling module encryption_layer192
+# 
+# Top level modules:
+# 	encryption_layer192
+# End time: 16:53:57 on May 25,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/lenovo/Desktop/Logic2_project {C:/Users/lenovo/Desktop/Logic2_project/decryption_layer192.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:53:57 on May 25,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/lenovo/Desktop/Logic2_project" C:/Users/lenovo/Desktop/Logic2_project/decryption_layer192.v 
+# -- Compiling module decryption_layer192
+# 
+# Top level modules:
+# 	decryption_layer192
+# End time: 16:53:57 on May 25,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/lenovo/Desktop/Logic2_project {C:/Users/lenovo/Desktop/Logic2_project/encryption_layer256.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:53:57 on May 25,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/lenovo/Desktop/Logic2_project" C:/Users/lenovo/Desktop/Logic2_project/encryption_layer256.v 
+# -- Compiling module encryption_layer256
+# 
+# Top level modules:
+# 	encryption_layer256
+# End time: 16:53:57 on May 25,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/lenovo/Desktop/Logic2_project {C:/Users/lenovo/Desktop/Logic2_project/decryption_layer256.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:53:57 on May 25,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/lenovo/Desktop/Logic2_project" C:/Users/lenovo/Desktop/Logic2_project/decryption_layer256.v 
+# -- Compiling module decryption_layer256
+# 
+# Top level modules:
+# 	decryption_layer256
+# End time: 16:53:57 on May 25,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/lenovo/Desktop/Logic2_project {C:/Users/lenovo/Desktop/Logic2_project/wrapper.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:53:57 on May 25,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/lenovo/Desktop/Logic2_project" C:/Users/lenovo/Desktop/Logic2_project/wrapper.v 
+# -- Compiling module wrapper
+# 
+# Top level modules:
+# 	wrapper
+# End time: 16:53:57 on May 25,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/lenovo/Desktop/Logic2_project {C:/Users/lenovo/Desktop/Logic2_project/wrapper_tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:53:57 on May 25,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/lenovo/Desktop/Logic2_project" C:/Users/lenovo/Desktop/Logic2_project/wrapper_tb.v 
+# -- Compiling module wrapper_tb
+# 
+# Top level modules:
+# 	wrapper_tb
+# End time: 16:53:57 on May 25,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  wrapper_tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" wrapper_tb 
+# Start time: 16:53:58 on May 25,2022
+# Loading work.wrapper_tb
+# Loading work.wrapper
+# Loading work.encryption_layer128
+# Loading work.subByte
+# Loading work.sbox
+# Loading work.shift_rows
+# Loading work.mix_columns
+# Loading work.key_expansion
+# Loading work.add_round_key
+# Loading work.decryption_layer128
+# Loading work.inv_shift_rows
+# Loading work.inv_subByte
+# Loading work.inv_sbox
+# Loading work.inv_mix_columns
+# Loading work.encryption_layer192
+# Loading work.key_expansion_192
+# Loading work.decryption_layer192
+# Loading work.encryption_layer256
+# Loading work.key_expansion_256
+# Loading work.decryption_layer256
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Note: $finish    : C:/Users/lenovo/Desktop/Logic2_project/wrapper_tb.v(51)
+#    Time: 710 ps  Iteration: 0  Instance: /wrapper_tb
+# 1
+# Break in Module wrapper_tb at C:/Users/lenovo/Desktop/Logic2_project/wrapper_tb.v line 51
+# End time: 16:54:11 on May 25,2022, Elapsed time: 0:00:13
+# Errors: 0, Warnings: 0
